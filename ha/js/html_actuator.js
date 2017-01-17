@@ -51,20 +51,20 @@ HTMLActuator.prototype.clearContainer = function (container) {
 
 HTMLActuator.prototype.addTile = function (tile) {
   var text = new Array();
-  text[1] = "觅食"
-  text[2] = "求偶"
-  text[3] = "抱对"
-  text[4] = "生殖细胞"
-  text[5] = "受精卵"
-  text[6] = "胚胎"
-  text[7] = "幼年蝌蚪"
-  text[8] = "成年蝌蚪"
-  text[9] = "幼蛙"
-  text[10] = "蛤"
-  text[11] = "ΘΘ"
-  text[12] = "Θ..Θ"
-  text[13] = "唔识得"
-  text[14] = "唔姿瓷"
+  text[1] = "含金出手"
+  text[2] = "南通小霸"
+  text[3] = "海门中学"
+  text[4] = "华工土豪"
+  text[5] = "参加革命"
+  text[6] = "创客联盟"
+  text[7] = "广州电视"
+  text[8] = "佛山皮条"
+  text[9] = "中央新闻"
+  text[10] = "扫清挂科"
+  text[11] = "非洲创维"
+  text[12] = "玛氏人资"
+  text[13] = "姐姐最爱"
+  text[14] = "九九归一"
   var self = this;
   var text2 = function (n) { var r = 0; while (n > 1) r++, n >>= 1; return r; }
 
